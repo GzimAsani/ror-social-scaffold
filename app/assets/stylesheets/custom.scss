@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap");
+@import 'bootstrap/dist/css/bootstrap';
 
 $primary-color-dark: #689f38;
 $primary-color: #8bc34a;
@@ -38,7 +39,7 @@ a {
 .nav {
   display: flex;
   justify-content: space-between;
-  padding: 16px 48px;
+  padding: 16px 18px;
   background-color: $primary-color-dark;
   color: $primary-color-light;
 
@@ -57,12 +58,12 @@ a {
   }
 
   .menu {
-    width: 80%;
+    width: 70%;
     justify-content: space-between;
 
     .menu-item {
       float: left;
-      margin: 0 15px;
+      margin: 0 8px;
     }
   }
 }
@@ -251,7 +252,7 @@ form {
   .post-comments-section {
     margin: 5px;
     width: 90%;
-    margin-left: 10%;
+    
 
     .post-comments {
       position: relative;
@@ -320,6 +321,10 @@ form {
   ul {
     color: #f00;
   }
+}
+
+.current-user {
+  margin-top: 10px;
 }
 
 @media only screen and (min-width: 480px) {
