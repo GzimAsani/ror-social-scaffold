@@ -49,13 +49,14 @@ To make sure the linters' checks using Github Actions work properly, you should 
 4. Open a PR from the `feature/branch` when your work is done.
 
 
-### Usage
+### Live Link
 
 Start server with:
-
+[Social Media](https://mysterious-plains-58782.herokuapp.com/users/sign_in)
 ```
     rails server
 ```
+Or
 
 Open `http://localhost:3000/` in your browser.
 
