@@ -52,7 +52,7 @@ To make sure the linters' checks using Github Actions work properly, you should 
 ### Usage
 
 Start server with:
-
+[Social Media](https://mysterious-plains-58782.herokuapp.com/users/sign_in)
 ```
     rails server
 ```
